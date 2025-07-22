@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="az">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ad Günün Mübarək Günel!</title>
+  <link rel="stylesheet" href="style.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&family=Poppins:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <!-- Balloons Animation Background -->
+  <div class="balloons-container">
+    
+    <div class="balloon balloon-6"></div>
+  </div>
+
+  <!-- Confetti Animation -->
+  <div class="confetti-container" id="confetti"></div>
+
+  <!-- Hero Section -->
+  <section class="hero" id="hero">
+    <div class="hero-content">
+      <div class="cake-animation">🎂</div>
+      <h1 class="main-title">
+        <span class="title-word">Ad Günün Mübarək </span>
+        <span class="title-word">Günel!</span>
+      </h1>
+      <p class="hero-subtitle">Bu gün sənin günündür! 🎉</p>
+    </div>
+    <div class="scroll-indicator">
+      <span>Aşağı sürüşdür</span>
+      <div class="scroll-arrow">↓</div>
+    </div>
+  </section>
+
+  <!-- Birthday Wishes Section -->
+  <section class="wishes-section" id="wishes">
+    <div class="container">
+      <div class="wishes-grid">
+        <div class="wish-card" data-aos="fade-up">
+          <div class="wish-icon">🌟</div>
+          <h3>Ulduzlar Kimi Parlaq</h3>
+          <p>Sənin gülüşün həmişə ətrafındakıları işıqlandırır. Bu ad günündə də həmişəki kimi parlaq ol!</p>
+        </div>
+        <div class="wish-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="wish-icon">🎁</div>
+          <h3>Hər Gün Bir Hədiyyə</h3>
+          <p>Həyatın sənə hər gün yeni xoşbəxtliklər, səadətlər və gözəl sürprizlər bəxş etsin!</p>
+        </div>
+        <div class="wish-card" data-aos="fade-up" data-aos-delay="400">
+          <div class="wish-icon">🌈</div>
+          <h3>Rəngbərəng Həyat</h3>
+          <p>Yolun həmişə çiçəklə dolu, ürəyin sevgi ilə dolu, gələcəyin ümidlə dolu olsun!</p>
+        </div>
+        <div class="wish-card" data-aos="fade-up" data-aos-delay="600">
+          <div class="wish-icon">💝</div>
+          <h3>Sevgi Dolu İllər</h3>
+          <p>Qarşında olan hər il səndən əvvəlkindən də gözəl, daha xoşbəxt olsun!</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Personal Message Section -->
+  <section class="personal-message" id="personal-message">
+    <div class="container">
+      <div class="message-card">
+        <div class="message-content">
+
+          <div class="personal-text">
+            <p class="message-paragraph">
+              <!-- Bu hissəni özünüz doldura bilərsiniz -->
+              <span class="placeholder-text">
+                Sənə görə yanlışdımı doğrudumu bilmirəm amma hər nə olursa olsun sən mənim üçün həmişəki kimi özəl və
+                dəyərli bir dostsan. İndi yoxsan amma bir zamanlar yaxşıki var idin.Ad günün mübarək. Nə yaxşıki
+                doğulmusan , nə yaxşıki səni tanımışam. Az müddətdə olsa mənlə dostluğunu paylaşdığın üçün çox sağol.
+                Arzum çoxdur sənə amma, onları bura cümlələrə sığışdırmaq qeyri-mümkündür. Çox heyif ki bu yaşında
+                yanında ola bilmirəm. Sən mənim güvənə biləcəyim ilk bəlkədə son dostum olaraq qalacaqsan. Hər nə
+                olursa olsun sənə xoşbəxtlik arzulayıram. Sənlə keçirdiyim hər saniyə mənim üçün çox dəyərli və özəl
+                idi. Nə yaxşı ki həyatımın azda olsa bir qismini səninlə paylaşıb xoş anlarımızı xatırladacaq günlərimiz
+                oldu.Yeni yaşında ən gözəl diləylərimlə...<br><br>
+              </span>
+            </p>
+          </div>
+          <div class="message-signature">
+            <span></span>
+            <div class="signature-line"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Cake animasiyası -->
+  <section class="cake-section">
+    <div class="container">
+      <h2 class="section-title">🎂 Tort Vaxtı! 🎂</h2>
+      <div class="cake-container">
+        <div class="cake">
+          <div class="cake-layer cake-bottom"></div>
+          <div class="cake-layer cake-middle"></div>
+          <div class="cake-layer cake-top"></div>
+          <div class="candles">
+            <div class="candle">
+              <div class="flame"></div>
+            </div>
+            <div class="candle candle-2">
+              <div class="flame"></div>
+            </div>
+            <div class="candle candle-3">
+              <div class="flame"></div>
+            </div>
+          </div>
+        </div>
+        <p class="cake-text">Arzunu tutub şamları üfür! 💨</p>
+        <button class="blow-candles-btn" onclick="blowCandles()">
+          Şamları Üfür 💨
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <div id="fireworks-container"></div>
+
+
+  <!-- Final Wishes Section -->
+  <section class="final-wishes" id="final-wishes">
+    <div class="container">
+      <div class="final-content">
+        <div class="birthday-cake">🎂</div>
+        <h2 class="final-title">Bir Daha Ad Günün Mübarək!</h2>
+        <p class="final-text">
+          Bu gün sənin günündür.
+          Həyatında hər zaman xoşbəxtlik, səadət və sevgi olsun!
+        </p>
+
+        <!-- Audio Control Section -->
+        <div class="audio-section">
+          <p class="audio-note"></p>
+          <div class="audio-controls">
+            <button class="audio-btn" id="audioBtn" onclick="toggleAudio()" disabled>
+              <span class="audio-icon">🔊 Sesli mesaj</span>
+              <audio id="birthdayAudio" autoplay loop>
+                <source src="muzaffer.mp3" type="audio/mpeg">
+                Sənin brauzerin audio dəstəkləmir.
+              </audio>
+            </button>
+          </div>
+        </div>
+        
+        <div class="birthday-date">
+          <span id="current-date"></span>
+        </div>
+
+     
+      </div>
+    </div>
+  </section>
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>
